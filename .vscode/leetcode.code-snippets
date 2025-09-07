@@ -25,9 +25,10 @@
 			"class Solution${TM_FILENAME_BASE/^([0-9]+).*/$1/} {",
 			"",
             "}",
+			"",
 			"@Test func tests${TM_FILENAME_BASE/^([0-9]+).*/$1/}() async throws {",
             "// Write your test here and use APIs like `#expect(...)` to check expected conditions.",
-    		"    let s = Solution${TM_FILENAME_BASE/^([0-9]+).*/$1/}()",
+    		"    let sol = Solution${TM_FILENAME_BASE/^([0-9]+).*/$1/}()",
 			"}"
 		],
 		"description": "Leetcode Swift function template"
