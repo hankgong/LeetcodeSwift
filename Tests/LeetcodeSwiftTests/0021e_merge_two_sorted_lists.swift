@@ -54,24 +54,24 @@ class Solution0021 {
     let m5 = ListNode(1, m4)
 
     #expect(s.mergeTwoLists(n0, n3) == m5)
-    // printList(buildList([1, 2, 3]))
+    printList(buildList([1, 2, 3]))
     // printList(buildList("1,2, 3"))
     // s.mergeTwoLists(n0, n3)?.printList()
     // m5.printList()
 
-    let tree1 = buildTree([1, 2, 3, nil, 4, 5, nil, 6, 7, 8, 9, 10, 11, 12])
-    let tree2 = buildTree([1, 2, 3, nil, 4, 5, nil, 6, 8, 8, 9, 10, 11, 12])
+    // let tree1 = buildTree([1, 2, 3, nil, 4, 5, nil, 6, 7, 8, 9, 10, 11, 12])
+    // let tree2 = buildTree([1, 2, 3, nil, 4, 5, nil, 6, 8, 8, 9, 10, 11, 12])
     // printTree(tree)
-    print(tree1 == tree2)
+    // print(tree1 == tree2)
 
-    var pq = PriorityQueue<Int>(sort: <)  // smallest element has highest priority
-    pq.enqueue(5)
-    pq.enqueue(1)
-    pq.enqueue(3)
+    // var pq = PriorityQueue<Int>(sort: <)  // smallest element has highest priority
+    // pq.enqueue(5)
+    // pq.enqueue(1)
+    // pq.enqueue(3)
 
-    print(pq.dequeue()!)  // 1
-    print(pq.dequeue()!)  // 3
-    print(pq.dequeue()!)  // 5
+    // print(pq.dequeue()!)  // 1
+    // print(pq.dequeue()!)  // 3
+    // print(pq.dequeue()!)  // 5
 
 
     // #expect([0, 1]==s.merge(&nums1, m, nums2, n), "ok")

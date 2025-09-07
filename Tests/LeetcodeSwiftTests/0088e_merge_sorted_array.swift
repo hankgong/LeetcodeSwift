@@ -26,7 +26,7 @@ class Solution0088 {
     nums1 = [1,2,3,0,0,0]
     m = 3 
     n = 3
-    nums2 = [2, 5, 6]
+    nums2 = [2, 5, 7]
     // #expect([0, 1]==s.merge(&nums1, m, nums2, n), "ok")
     s.merge(&nums1, m, nums2, n)
     #expect([1,2,2,3,5,6]==nums1)

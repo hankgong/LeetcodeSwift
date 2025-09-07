@@ -19,7 +19,7 @@ class Solution0001 {
 
 @Test func tests0001() async throws {
     // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-    let s = Solution0001()
+    let s = Solution0001() 
 
     var nums = [2,7,11,15]
     var target = 9
