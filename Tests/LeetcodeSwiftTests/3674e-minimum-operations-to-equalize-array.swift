@@ -1,4 +1,6 @@
 import Testing
+
+//https://leetcode.cn/problems/minimum-operations-to-equalize-array/
 class Solution3674 {
     func minOperations(_ nums: [Int]) -> Int {
         return Set(nums).count == 1 ? 0 : 1

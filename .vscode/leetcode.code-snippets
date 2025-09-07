@@ -21,7 +21,8 @@
 		"prefix": "leetcode",
 		"body": [
 			"import Testing",
-
+			"",
+			"//https://leetcode.cn/problems/${TM_FILENAME/(?:\\d+[a-z]?-)?(.+)\\.swift/$1/}/",
 			"class Solution${TM_FILENAME_BASE/^([0-9]+).*/$1/} {",
 			"",
             "}",
